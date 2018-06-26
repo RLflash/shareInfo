@@ -1,0 +1,18 @@
+[ 2018-04-14T17:27:25+08:00 ] 127.0.0.1 /selfweba/admin.php/Admin/Index/getdetail?infoid=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Admin.php
+
+[ 2018-04-14T17:27:25+08:00 ] 127.0.0.1 /selfweba/admin.php/Admin/Index/getdetail?infoid=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Admin.php
+
+[ 2018-04-14T17:32:49+08:00 ] 127.0.0.1 /selfweba/admin.php/Home/Index/getdetail?infoid=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Admin.php
+

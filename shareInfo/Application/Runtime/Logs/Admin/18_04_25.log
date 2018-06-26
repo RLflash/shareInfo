@@ -1,0 +1,199 @@
+[ 2018-04-25T10:46:54+08:00 ] 127.0.0.1 /selfweba/index.php/Admin/Index/seachinfo?page=1&limit=20&sort=%2Bid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: title F:\mysoft\xampp\htdocs\selfweba\Application\Admin\Controller\IndexController.class.php 第 30 行.
+SQL: SELECT * FROM `shell_info` WHERE `title` LIKE '%%' ORDER BY createtime LIMIT 0,20   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell_info` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-25T10:47:00+08:00 ] 127.0.0.1 /selfweba/index.php/Admin/Index/seachinfo?page=2&limit=20&sort=%2Bid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: title F:\mysoft\xampp\htdocs\selfweba\Application\Admin\Controller\IndexController.class.php 第 30 行.
+SQL: SELECT * FROM `shell_info` WHERE `title` LIKE '%%' ORDER BY createtime LIMIT 20,20   [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell_info` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-25T10:47:01+08:00 ] 127.0.0.1 /selfweba/index.php/Admin/Index/seachinfo?page=3&limit=20&sort=%2Bid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: title F:\mysoft\xampp\htdocs\selfweba\Application\Admin\Controller\IndexController.class.php 第 30 行.
+SQL: SELECT * FROM `shell_info` WHERE `title` LIKE '%%' ORDER BY createtime LIMIT 40,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell_info` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-25T10:47:04+08:00 ] 127.0.0.1 /selfweba/index.php/Admin/Index/seachinfo?page=1&limit=20&sort=%2Bid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: title F:\mysoft\xampp\htdocs\selfweba\Application\Admin\Controller\IndexController.class.php 第 30 行.
+SQL: SELECT * FROM `shell_info` WHERE `title` LIKE '%%' ORDER BY createtime LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell_info` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-25T10:47:27+08:00 ] 127.0.0.1 /selfweba/index.php/Admin/Index/seachinfo?page=1&limit=20&title=ww&sort=%2Bid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shell_info` WHERE `title` LIKE '%ww%' ORDER BY createtime LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell_info` WHERE `title` LIKE '%ww%' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-25T10:47:30+08:00 ] 127.0.0.1 /selfweba/index.php/Admin/Index/seachinfo?page=1&limit=20&title=www&sort=%2Bid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shell_info` WHERE `title` LIKE '%www%' ORDER BY createtime LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell_info` WHERE `title` LIKE '%www%' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-25T10:47:31+08:00 ] 127.0.0.1 /selfweba/index.php/Admin/Index/seachinfo?page=1&limit=20&title=www&sort=%2Bid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `shell_info` WHERE `title` LIKE '%www%' ORDER BY createtime LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell_info` WHERE `title` LIKE '%www%' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-25T10:47:32+08:00 ] 127.0.0.1 /selfweba/index.php/Admin/Index/seachinfo?page=1&limit=20&title=wwwww&sort=%2Bid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shell_info` WHERE `title` LIKE '%wwwww%' ORDER BY createtime LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell_info` WHERE `title` LIKE '%wwwww%' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-25T10:47:36+08:00 ] 127.0.0.1 /selfweba/index.php/Admin/Index/seachinfo?page=1&limit=20&title=222&sort=%2Bid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shell_info` WHERE `title` LIKE '%222%' ORDER BY createtime LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell_info` WHERE `title` LIKE '%222%' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-25T10:47:37+08:00 ] 127.0.0.1 /selfweba/index.php/Admin/Index/seachinfo?page=1&limit=20&title=222&sort=%2Bid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `shell_info` WHERE `title` LIKE '%222%' ORDER BY createtime LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell_info` WHERE `title` LIKE '%222%' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-25T10:47:39+08:00 ] 127.0.0.1 /selfweba/index.php/Admin/Index/seachinfo?page=1&limit=20&title=&sort=%2Bid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shell_info` WHERE `title` LIKE '%%' ORDER BY createtime LIMIT 0,20   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell_info` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-25T10:47:42+08:00 ] 127.0.0.1 /selfweba/index.php/Admin/Index/seachinfo?page=3&limit=20&title=&sort=%2Bid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `shell_info` WHERE `title` LIKE '%%' ORDER BY createtime LIMIT 40,20   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell_info` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-25T10:47:44+08:00 ] 127.0.0.1 /selfweba/index.php/Admin/Index/seachinfo?page=2&limit=20&title=&sort=%2Bid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shell_info` WHERE `title` LIKE '%%' ORDER BY createtime LIMIT 20,20   [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell_info` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-25T10:48:45+08:00 ] 127.0.0.1 /selfweba/index.php/Admin/Index/seachinfo?page=1&limit=20&sort=%2Bid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: title F:\mysoft\xampp\htdocs\selfweba\Application\Admin\Controller\IndexController.class.php 第 30 行.
+SQL: SELECT * FROM `shell_info` WHERE `title` LIKE '%%' ORDER BY createtime LIMIT 0,20   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell_info` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-25T16:15:00+08:00 ] 127.0.0.1 /selfweba/index.php/Admin/Index/inserart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: INSERT INTO `shell_info` (`title`,`detail`,`createtime`,`autor`,`onegrade`,`twograde`,`arturl`,`artpas`) VALUES ('我在江湖等你','','2018-04-25 16:14:59','Admin','前端','H5','我在江湖等你','我在江湖等你') [ RunTime:1.1251s ]
+
+[ 2018-04-25T16:15:08+08:00 ] 127.0.0.1 /selfweba/index.php/Admin/Index/inserart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: INSERT INTO `shell_info` (`title`,`detail`,`createtime`,`autor`,`onegrade`,`twograde`,`arturl`,`artpas`) VALUES ('我在江湖等你','','2018-04-25 16:15:08','Admin','前端','css3','我在江湖等你','我在江湖等你') [ RunTime:0.1690s ]
+
+[ 2018-04-25T16:15:20+08:00 ] 127.0.0.1 /selfweba/index.php/Admin/Index/inserart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0370s ]
+SQL: INSERT INTO `shell_info` (`title`,`detail`,`createtime`,`autor`,`onegrade`,`twograde`,`arturl`,`artpas`) VALUES ('我在江湖等你','','2018-04-25 16:15:20','Admin','后台','python','我在江湖等你','我在江湖等你') [ RunTime:0.0900s ]
+
+[ 2018-04-25T16:15:24+08:00 ] 127.0.0.1 /selfweba/index.php/Admin/Index/inserart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: INSERT INTO `shell_info` (`title`,`detail`,`createtime`,`autor`,`onegrade`,`twograde`,`arturl`,`artpas`) VALUES ('我在江湖等你','','2018-04-25 16:15:24','Admin','后台','java','我在江湖等你','我在江湖等你') [ RunTime:0.1370s ]
+

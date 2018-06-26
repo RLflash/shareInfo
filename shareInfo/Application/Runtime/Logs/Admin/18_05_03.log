@@ -1,0 +1,28 @@
+[ 2018-05-03T10:01:23+08:00 ] 127.0.0.1 /selfweba/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index
+
+[ 2018-05-03T10:01:47+08:00 ] 127.0.0.1 /selfweba/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:index
+
+[ 2018-05-03T10:12:10+08:00 ] 127.0.0.1 /selfweba/index.php/Admin/Index/inserart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: INSERT INTO `shell_info` (`title`,`detail`,`createtime`,`autor`,`onegrade`,`twograde`,`arturl`,`artpas`) VALUES ('2','<p><br/></p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src=\"http://localhost/image/20180503/1525313519291325.png\" title=\"1525313519291325.png\" alt=\"vido.png\"/></p><p><br/></p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gdsgsdg<br/></p><p><br/></p><p><br/></p><p><br/></p>','2018-05-03 10:12:10','Admin','1','2','22','222') [ RunTime:0.0730s ]
+

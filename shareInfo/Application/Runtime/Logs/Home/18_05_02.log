@@ -1,0 +1,558 @@
+[ 2018-05-02T17:21:02+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.7980s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.1920s ]
+
+[ 2018-05-02T17:21:02+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnavs?twonav=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getsecondnavs
+
+[ 2018-05-02T17:21:23+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0010s ]
+
+[ 2018-05-02T17:21:23+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0010s ]
+
+[ 2018-05-02T17:21:23+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnavs?twonav=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getsecondnavs
+
+[ 2018-05-02T17:21:24+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfof?all=%E5%89%8D%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getInfof
+
+[ 2018-05-02T17:21:24+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%89%8D%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0250s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '前端' GROUP BY twograde  [ RunTime:0.0280s ]
+
+[ 2018-05-02T17:21:26+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=web
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: lea F:\mysoft\xampp\htdocs\selfweba\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = 'web'  [ RunTime:0.0930s ]
+NOTIC: [8] Undefined index: lea F:\mysoft\xampp\htdocs\selfweba\Application\Home\Controller\IndexController.class.php 第 62 行.
+
+[ 2018-05-02T17:21:28+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfof?all=%E5%90%8E%E5%8F%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getInfof
+
+[ 2018-05-02T17:21:28+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%90%8E%E5%8F%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '后台' GROUP BY twograde  [ RunTime:0.0030s ]
+
+[ 2018-05-02T17:21:29+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfof?all=%E5%89%8D%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getInfof
+
+[ 2018-05-02T17:21:29+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%89%8D%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '前端' GROUP BY twograde  [ RunTime:0.0020s ]
+
+[ 2018-05-02T17:21:30+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=web
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: lea F:\mysoft\xampp\htdocs\selfweba\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = 'web'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: lea F:\mysoft\xampp\htdocs\selfweba\Application\Home\Controller\IndexController.class.php 第 62 行.
+
+[ 2018-05-02T18:03:34+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0430s ]
+
+[ 2018-05-02T18:03:34+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnavs?twonav=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:getsecondnavs
+
+[ 2018-05-02T18:03:36+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfof?all=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getInfof
+
+[ 2018-05-02T18:03:36+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '1' GROUP BY twograde  [ RunTime:0.0010s ]
+
+[ 2018-05-02T18:03:37+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getdetail?infoid=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `detail`,`id` FROM `shell_info` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-05-02T18:03:39+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfof?all=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getInfof
+
+[ 2018-05-02T18:03:39+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0050s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '1' GROUP BY twograde  [ RunTime:0.0040s ]
+
+[ 2018-05-02T18:03:39+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getdetail?infoid=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `detail`,`id` FROM `shell_info` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-02T18:03:41+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfof?all=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getInfof
+
+[ 2018-05-02T18:03:41+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '1' GROUP BY twograde  [ RunTime:0.0020s ]
+
+[ 2018-05-02T18:03:47+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getdetail?infoid=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `detail`,`id` FROM `shell_info` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-02T18:04:03+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfof?all=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getInfof
+
+[ 2018-05-02T18:04:03+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '1' GROUP BY twograde  [ RunTime:0.0020s ]
+
+[ 2018-05-02T18:04:04+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getdetail?infoid=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `detail`,`id` FROM `shell_info` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-05-02T18:04:06+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfof?all=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getInfof
+
+[ 2018-05-02T18:04:06+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '1' GROUP BY twograde  [ RunTime:0.0030s ]
+
+[ 2018-05-02T18:04:07+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getdetail?infoid=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `detail`,`id` FROM `shell_info` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-02T18:04:12+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: lea F:\mysoft\xampp\htdocs\selfweba\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '2'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: lea F:\mysoft\xampp\htdocs\selfweba\Application\Home\Controller\IndexController.class.php 第 62 行.
+
+[ 2018-05-02T18:04:20+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getdetail?infoid=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `detail`,`id` FROM `shell_info` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-02T18:04:22+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: lea F:\mysoft\xampp\htdocs\selfweba\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '2'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: lea F:\mysoft\xampp\htdocs\selfweba\Application\Home\Controller\IndexController.class.php 第 62 行.
+
+[ 2018-05-02T18:04:24+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfof?all=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getInfof
+
+[ 2018-05-02T18:04:24+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0420s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '1' GROUP BY twograde  [ RunTime:0.0020s ]
+
+[ 2018-05-02T18:04:25+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfof?all=%E5%89%8D%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getInfof
+
+[ 2018-05-02T18:04:25+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%89%8D%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0300s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '前端' GROUP BY twograde  [ RunTime:0.0010s ]
+
+[ 2018-05-02T18:04:26+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfof?all=%E5%90%8E%E5%8F%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getInfof
+
+[ 2018-05-02T18:04:26+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%90%8E%E5%8F%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '后台' GROUP BY twograde  [ RunTime:0.0020s ]
+
+[ 2018-05-02T18:04:26+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfof?all=%E8%82%A4%E8%89%B2%E6%9A%97%E8%AE%BF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getInfof
+
+[ 2018-05-02T18:04:26+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E8%82%A4%E8%89%B2%E6%9A%97%E8%AE%BF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '肤色暗访' GROUP BY twograde  [ RunTime:0.0010s ]
+
+[ 2018-05-02T18:04:27+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfof?all=%E5%90%8E%E5%8F%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getInfof
+
+[ 2018-05-02T18:04:27+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%90%8E%E5%8F%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0050s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '后台' GROUP BY twograde  [ RunTime:0.0020s ]
+
+[ 2018-05-02T18:04:27+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfof?all=%E5%89%8D%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getInfof
+
+[ 2018-05-02T18:04:27+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%89%8D%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '前端' GROUP BY twograde  [ RunTime:0.0020s ]
+
+[ 2018-05-02T18:04:28+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfof?all=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getInfof
+
+[ 2018-05-02T18:04:28+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '1' GROUP BY twograde  [ RunTime:0.0020s ]
+
+[ 2018-05-02T18:04:29+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: lea F:\mysoft\xampp\htdocs\selfweba\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '2'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: lea F:\mysoft\xampp\htdocs\selfweba\Application\Home\Controller\IndexController.class.php 第 62 行.
+
+[ 2018-05-02T18:04:30+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfof?all=%E5%89%8D%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getInfof
+
+[ 2018-05-02T18:04:30+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%89%8D%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0120s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '前端' GROUP BY twograde  [ RunTime:0.0010s ]
+
+[ 2018-05-02T18:04:31+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=web
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: lea F:\mysoft\xampp\htdocs\selfweba\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = 'web'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: lea F:\mysoft\xampp\htdocs\selfweba\Application\Home\Controller\IndexController.class.php 第 62 行.
+
+[ 2018-05-02T18:04:31+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=css2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: lea F:\mysoft\xampp\htdocs\selfweba\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = 'css2'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: lea F:\mysoft\xampp\htdocs\selfweba\Application\Home\Controller\IndexController.class.php 第 62 行.
+
+[ 2018-05-02T18:04:32+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfof?all=%E5%89%8D%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getInfof
+
+[ 2018-05-02T18:04:32+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%89%8D%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0300s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '前端' GROUP BY twograde  [ RunTime:0.0020s ]
+
+[ 2018-05-02T18:04:33+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=web
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: lea F:\mysoft\xampp\htdocs\selfweba\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = 'web'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: lea F:\mysoft\xampp\htdocs\selfweba\Application\Home\Controller\IndexController.class.php 第 62 行.
+
+[ 2018-05-02T18:04:33+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=css2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: lea F:\mysoft\xampp\htdocs\selfweba\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = 'css2'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: lea F:\mysoft\xampp\htdocs\selfweba\Application\Home\Controller\IndexController.class.php 第 62 行.
+

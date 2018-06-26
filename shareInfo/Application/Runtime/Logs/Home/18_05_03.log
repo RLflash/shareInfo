@@ -1,0 +1,2290 @@
+[ 2018-05-03T09:58:50+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.029601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029601s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0010s ]
+
+[ 2018-05-03T09:58:50+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnavs?twonav=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getsecondnavs
+
+[ 2018-05-03T09:58:56+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfof?all=%E8%82%A4%E8%89%B2%E6%9A%97%E8%AE%BF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getInfof
+
+[ 2018-05-03T09:58:56+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E8%82%A4%E8%89%B2%E6%9A%97%E8%AE%BF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '肤色暗访' GROUP BY twograde  [ RunTime:0.0020s ]
+
+[ 2018-05-03T09:58:57+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfof?all=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getInfof
+
+[ 2018-05-03T09:58:57+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '1' GROUP BY twograde  [ RunTime:0.0010s ]
+
+[ 2018-05-03T09:59:04+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%89%8D%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '前端' GROUP BY twograde  [ RunTime:0.0010s ]
+
+[ 2018-05-03T09:59:04+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfof?all=%E5%89%8D%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getInfof
+
+[ 2018-05-03T09:59:05+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=web
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: lea F:\mysoft\xampp\htdocs\selfweba\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = 'web'  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: lea F:\mysoft\xampp\htdocs\selfweba\Application\Home\Controller\IndexController.class.php 第 62 行.
+
+[ 2018-05-03T10:04:32+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = 'undefined' GROUP BY twograde  [ RunTime:0.0030s ]
+
+[ 2018-05-03T10:04:32+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0080s ]
+
+[ 2018-05-03T10:04:33+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=1&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '1'  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:04:33+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '1' GROUP BY twograde  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:04:33+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0090s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0030s ]
+
+[ 2018-05-03T10:04:34+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getdetail?infoid=171
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `detail`,`id` FROM `shell_info` WHERE `id` = 171 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:04:34+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = 'undefined' GROUP BY twograde  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:04:34+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:04:36+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/geturlpas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT arturl as url,artpas as pas,id as u_id FROM `shell_info` WHERE `id` = null LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:04:36+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/geturlpas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT arturl as url,artpas as pas,id as u_id FROM `shell_info` WHERE `id` = 171 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:04:37+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/geturlpas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT arturl as url,artpas as pas,id as u_id FROM `shell_info` WHERE `id` = 171 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:04:51+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E5%89%8D%E7%AB%AF&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '前端'  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:04:51+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0060s ]
+
+[ 2018-05-03T10:04:51+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%89%8D%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '前端' GROUP BY twograde  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:04:51+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E5%90%8E%E5%8F%B0&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '后台'  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:04:51+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%90%8E%E5%8F%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '后台' GROUP BY twograde  [ RunTime:0.0040s ]
+
+[ 2018-05-03T10:04:51+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:04:51+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E8%82%A4%E8%89%B2%E6%9A%97%E8%AE%BF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '肤色暗访' GROUP BY twograde  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:04:51+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:04:51+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E8%82%A4%E8%89%B2%E6%9A%97%E8%AE%BF&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '肤色暗访'  [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:04:52+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:04:52+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E5%90%8E%E5%8F%B0&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '后台'  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:04:52+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%90%8E%E5%8F%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '后台' GROUP BY twograde  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:04:53+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:04:53+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=1&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '1'  [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:04:53+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '1' GROUP BY twograde  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:04:53+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%89%8D%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '前端' GROUP BY twograde  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:04:53+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0040s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0090s ]
+
+[ 2018-05-03T10:04:53+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E5%89%8D%E7%AB%AF&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '前端'  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:04:54+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%90%8E%E5%8F%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '后台' GROUP BY twograde  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:04:54+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0030s ]
+
+[ 2018-05-03T10:04:54+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E5%90%8E%E5%8F%B0&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '后台'  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:04:54+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E8%82%A4%E8%89%B2%E6%9A%97%E8%AE%BF&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '肤色暗访'  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:04:54+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:04:54+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E8%82%A4%E8%89%B2%E6%9A%97%E8%AE%BF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '肤色暗访' GROUP BY twograde  [ RunTime:0.0030s ]
+
+[ 2018-05-03T10:04:55+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E5%90%8E%E5%8F%B0&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '后台'  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:04:55+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:04:55+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%90%8E%E5%8F%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '后台' GROUP BY twograde  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:04:55+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%89%8D%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '前端' GROUP BY twograde  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:04:55+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E5%89%8D%E7%AB%AF&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '前端'  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:04:55+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:04:55+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:04:55+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=1&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '1'  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:04:55+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '1' GROUP BY twograde  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:04:56+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0020s ]
+
+E `onegrade` = '前端' GROUP BY twograde  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:04:56+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E5%89%8D%E7%AB%AF&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '前端'  [ RunTime:0.0070s ]
+
+[ 2018-05-03T10:04:56+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0090s ]
+
+[ 2018-05-03T10:04:56+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%90%8E%E5%8F%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '后台' GROUP BY twograde  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:04:56+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E5%90%8E%E5%8F%B0&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '后台'  [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:04:57+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E8%82%A4%E8%89%B2%E6%9A%97%E8%AE%BF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '肤色暗访' GROUP BY twograde  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:04:57+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:04:57+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E8%82%A4%E8%89%B2%E6%9A%97%E8%AE%BF&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '肤色暗访'  [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:04:57+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:04:57+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%89%8D%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '前端' GROUP BY twograde  [ RunTime:0.0030s ]
+
+[ 2018-05-03T10:04:57+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E5%89%8D%E7%AB%AF&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '前端'  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:04:58+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0030s ]
+
+[ 2018-05-03T10:04:58+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%90%8E%E5%8F%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0060s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '后台' GROUP BY twograde  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:04:58+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E5%90%8E%E5%8F%B0&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '后台'  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:04:59+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:04:59+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%90%8E%E5%8F%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '后台' GROUP BY twograde  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:04:59+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=python&lea=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shell_info` WHERE `twograde` = 'python'  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:05:00+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E5%89%8D%E7%AB%AF&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '前端'  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:00+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:00+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%89%8D%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '前端' GROUP BY twograde  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:01+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '1' GROUP BY twograde  [ RunTime:0.0030s ]
+
+[ 2018-05-03T10:05:01+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0040s ]
+
+[ 2018-05-03T10:05:01+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=1&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '1'  [ RunTime:0.0030s ]
+
+[ 2018-05-03T10:05:04+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0030s ]
+
+[ 2018-05-03T10:05:04+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0040s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = 'undefined' GROUP BY twograde  [ RunTime:0.0050s ]
+
+[ 2018-05-03T10:05:06+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '1' GROUP BY twograde  [ RunTime:0.0030s ]
+
+[ 2018-05-03T10:05:06+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=1&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '1'  [ RunTime:0.0040s ]
+
+[ 2018-05-03T10:05:06+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:07+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:07+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E5%89%8D%E7%AB%AF&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '前端'  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:07+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%89%8D%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '前端' GROUP BY twograde  [ RunTime:0.0040s ]
+
+[ 2018-05-03T10:05:07+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:07+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%90%8E%E5%8F%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '后台' GROUP BY twograde  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:07+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E5%90%8E%E5%8F%B0&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '后台'  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:08+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%90%8E%E5%8F%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '后台' GROUP BY twograde  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:08+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:08+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=python&lea=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shell_info` WHERE `twograde` = 'python'  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:05:08+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%89%8D%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '前端' GROUP BY twograde  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:08+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E5%89%8D%E7%AB%AF&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '前端'  [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:05:08+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:09+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:09+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=canvas&lea=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shell_info` WHERE `twograde` = 'canvas'  [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:05:09+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%89%8D%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '前端' GROUP BY twograde  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:05:10+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=css2&lea=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shell_info` WHERE `twograde` = 'css2'  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:10+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:10+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%89%8D%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '前端' GROUP BY twograde  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:05:10+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:10+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%89%8D%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '前端' GROUP BY twograde  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:10+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=web&lea=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shell_info` WHERE `twograde` = 'web'  [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:05:12+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:12+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%90%8E%E5%8F%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '后台' GROUP BY twograde  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:12+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E5%90%8E%E5%8F%B0&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '后台'  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:12+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E8%82%A4%E8%89%B2%E6%9A%97%E8%AE%BF&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '肤色暗访'  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:12+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:05:12+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E8%82%A4%E8%89%B2%E6%9A%97%E8%AE%BF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '肤色暗访' GROUP BY twograde  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:13+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:13+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%89%8D%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '前端' GROUP BY twograde  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:05:13+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E5%89%8D%E7%AB%AF&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '前端'  [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:05:13+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%90%8E%E5%8F%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '后台' GROUP BY twograde  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:05:13+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E5%90%8E%E5%8F%B0&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '后台'  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:05:13+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0070s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:05:13+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E8%82%A4%E8%89%B2%E6%9A%97%E8%AE%BF&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '肤色暗访'  [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:05:13+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E8%82%A4%E8%89%B2%E6%9A%97%E8%AE%BF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '肤色暗访' GROUP BY twograde  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:13+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:05:14+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%90%8E%E5%8F%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '后台' GROUP BY twograde  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:14+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:14+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E5%90%8E%E5%8F%B0&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '后台'  [ RunTime:0.0050s ]
+
+[ 2018-05-03T10:05:14+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:05:14+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E5%89%8D%E7%AB%AF&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '前端'  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:05:14+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%89%8D%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0040s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '前端' GROUP BY twograde  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:05:15+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0000s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '1' GROUP BY twograde  [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:05:15+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=1&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '1'  [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:05:15+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0000s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:05:17+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E5%90%8E%E5%8F%B0&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '后台'  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:17+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%90%8E%E5%8F%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '后台' GROUP BY twograde  [ RunTime:0.0130s ]
+
+[ 2018-05-03T10:05:17+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0040s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0030s ]
+
+[ 2018-05-03T10:05:18+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=1&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '1'  [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:05:18+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '1' GROUP BY twograde  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:05:18+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0090s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:05:19+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%89%8D%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '前端' GROUP BY twograde  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:19+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:19+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E5%89%8D%E7%AB%AF&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '前端'  [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:05:21+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:05:21+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '1' GROUP BY twograde  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:05:21+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=1&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '1'  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:22+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%90%8E%E5%8F%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '后台' GROUP BY twograde  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:22+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E5%90%8E%E5%8F%B0&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '后台'  [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:05:22+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0030s ]
+
+[ 2018-05-03T10:05:23+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=1&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '1'  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:23+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:05:23+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '1' GROUP BY twograde  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:05:24+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:24+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E8%82%A4%E8%89%B2%E6%9A%97%E8%AE%BF&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '肤色暗访'  [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:05:24+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E8%82%A4%E8%89%B2%E6%9A%97%E8%AE%BF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0040s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '肤色暗访' GROUP BY twograde  [ RunTime:0.0030s ]
+
+[ 2018-05-03T10:05:25+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E8%82%A4%E8%89%B2%E6%9A%97%E8%AE%BF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '肤色暗访' GROUP BY twograde  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:25+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:05:25+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E5%8F%91%E9%98%BF%E7%91%9F%E5%8F%91&lea=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shell_info` WHERE `twograde` = '发阿瑟发'  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:26+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = 'undefined' GROUP BY twograde  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:26+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0050s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:05:26+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getdetail?infoid=170
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `detail`,`id` FROM `shell_info` WHERE `id` = 170 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:28+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/geturlpas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0000s ]
+SQL: SELECT arturl as url,artpas as pas,id as u_id FROM `shell_info` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:05:28+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/geturlpas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0000s ]
+SQL: SELECT arturl as url,artpas as pas,id as u_id FROM `shell_info` WHERE `id` = 170 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:05:30+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:30+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = 'undefined' GROUP BY twograde  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:05:51+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:05:51+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0060s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '1' GROUP BY twograde  [ RunTime:0.0030s ]
+
+[ 2018-05-03T10:05:51+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=1&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '1'  [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:05:52+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0030s ]
+
+[ 2018-05-03T10:05:52+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '1' GROUP BY twograde  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:05:52+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=2&lea=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shell_info` WHERE `twograde` = '2'  [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:05:54+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:05:54+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '1' GROUP BY twograde  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:05:54+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=1&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '1'  [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:05:54+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:05:54+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=2&lea=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shell_info` WHERE `twograde` = '2'  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:05:54+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0040s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '1' GROUP BY twograde  [ RunTime:0.0030s ]
+
+[ 2018-05-03T10:06:00+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E5%89%8D%E7%AB%AF&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '前端'  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:06:00+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%89%8D%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '前端' GROUP BY twograde  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:06:00+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:06:02+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:06:02+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getdetail?infoid=169
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `detail`,`id` FROM `shell_info` WHERE `id` = 169 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:06:02+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0040s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = 'undefined' GROUP BY twograde  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:06:04+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/geturlpas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT arturl as url,artpas as pas,id as u_id FROM `shell_info` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:06:04+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/geturlpas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0156s ]
+SQL: SELECT arturl as url,artpas as pas,id as u_id FROM `shell_info` WHERE `id` = 169 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:06:07+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E5%89%8D%E7%AB%AF&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '前端'  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:06:07+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%89%8D%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0360s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '前端' GROUP BY twograde  [ RunTime:0.0030s ]
+
+[ 2018-05-03T10:06:07+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0480s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:06:07+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0030s ]
+
+[ 2018-05-03T10:06:07+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E5%90%8E%E5%8F%B0&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '后台'  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:06:07+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%90%8E%E5%8F%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '后台' GROUP BY twograde  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:06:08+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E8%82%A4%E8%89%B2%E6%9A%97%E8%AE%BF&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '肤色暗访'  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:06:08+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E8%82%A4%E8%89%B2%E6%9A%97%E8%AE%BF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '肤色暗访' GROUP BY twograde  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:06:08+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0010s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:06:08+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:06:08+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%90%8E%E5%8F%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '后台' GROUP BY twograde  [ RunTime:0.0040s ]
+
+[ 2018-05-03T10:06:08+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E5%90%8E%E5%8F%B0&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '后台'  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:10:24+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0230s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0050s ]
+
+[ 2018-05-03T10:10:24+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=%E5%90%8E%E5%8F%B0&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '后台'  [ RunTime:0.0050s ]
+
+[ 2018-05-03T10:10:24+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=%E5%90%8E%E5%8F%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0370s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '后台' GROUP BY twograde  [ RunTime:0.0030s ]
+
+[ 2018-05-03T10:10:25+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0030s ]
+
+[ 2018-05-03T10:10:25+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0130s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '1' GROUP BY twograde  [ RunTime:0.0060s ]
+
+[ 2018-05-03T10:10:25+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=1&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '1'  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:10:25+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0040s ]
+
+[ 2018-05-03T10:10:25+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0050s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '1' GROUP BY twograde  [ RunTime:0.0050s ]
+
+[ 2018-05-03T10:10:25+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=2&lea=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shell_info` WHERE `twograde` = '2'  [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:10:26+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=1&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '1'  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:10:26+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0180s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0060s ]
+
+[ 2018-05-03T10:10:26+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0040s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '1' GROUP BY twograde  [ RunTime:0.0030s ]
+
+[ 2018-05-03T10:10:51+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0270s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '1' GROUP BY twograde  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:10:51+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0290s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0040s ]
+
+[ 2018-05-03T10:10:51+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=1&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '1'  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:11:04+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0290s ]
+
+[ 2018-05-03T10:11:04+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0320s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = 'undefined' GROUP BY twograde  [ RunTime:0.0030s ]
+
+[ 2018-05-03T10:11:05+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=1&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '1'  [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:11:05+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0250s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0030s ]
+
+[ 2018-05-03T10:11:05+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0040s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '1' GROUP BY twograde  [ RunTime:0.0070s ]
+
+[ 2018-05-03T10:11:06+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=2&lea=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shell_info` WHERE `twograde` = '2'  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:11:06+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0020s ]
+
+[ 2018-05-03T10:11:06+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '1' GROUP BY twograde  [ RunTime:0.0030s ]
+
+[ 2018-05-03T10:11:06+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getdetail?infoid=171
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0300s ]
+SQL: SELECT `detail`,`id` FROM `shell_info` WHERE `id` = 171 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:11:06+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0500s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = 'undefined' GROUP BY twograde  [ RunTime:0.0030s ]
+
+[ 2018-05-03T10:11:06+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0050s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0080s ]
+
+[ 2018-05-03T10:11:09+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0050s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = 'undefined' GROUP BY twograde  [ RunTime:0.0090s ]
+
+[ 2018-05-03T10:11:09+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getdetail?infoid=171
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0070s ]
+SQL: SELECT `detail`,`id` FROM `shell_info` WHERE `id` = 171 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:11:09+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0370s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0060s ]
+
+[ 2018-05-03T10:12:17+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0310s ]
+
+[ 2018-05-03T10:12:17+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getInfot?all=2&lea=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shell_info` WHERE `twograde` = '2'  [ RunTime:0.0010s ]
+
+[ 2018-05-03T10:12:17+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '1' GROUP BY twograde  [ RunTime:0.0040s ]
+
+[ 2018-05-03T10:12:18+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getsecondnav?onenav=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0040s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = 'undefined' GROUP BY twograde  [ RunTime:0.0030s ]
+
+[ 2018-05-03T10:12:18+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0060s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0030s ]
+
+[ 2018-05-03T10:12:18+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/getdetail?infoid=172
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0040s ]
+SQL: SELECT `detail`,`id` FROM `shell_info` WHERE `id` = 172 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:12:57+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/geturlpas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT arturl as url,artpas as pas,id as u_id FROM `shell_info` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:12:57+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/geturlpas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0030s ]
+SQL: SELECT arturl as url,artpas as pas,id as u_id FROM `shell_info` WHERE `id` = 172 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:12:59+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/geturlpas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT arturl as url,artpas as pas,id as u_id FROM `shell_info` WHERE `id` = 172 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:13:04+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/geturlpas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0220s ]
+SQL: SELECT arturl as url,artpas as pas,id as u_id FROM `shell_info` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-03T10:13:04+08:00 ] 127.0.0.1 /selfweba/index.php/Home/Index/geturlpas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0020s ]
+SQL: SELECT arturl as url,artpas as pas,id as u_id FROM `shell_info` WHERE `id` = 172 LIMIT 1   [ RunTime:0.0000s ]
+

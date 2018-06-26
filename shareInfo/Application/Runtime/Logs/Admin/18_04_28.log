@@ -1,0 +1,36 @@
+[ 2018-04-28T10:45:59+08:00 ] 127.0.0.1 /selfweba/index.php/Admin/Index/seachinfo?page=1&limit=20&sort=%2Bid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.161009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0540s ]
+NOTIC: [8] Undefined index: title F:\mysoft\xampp\htdocs\selfweba\Application\Admin\Controller\IndexController.class.php 第 30 行.
+SQL: SELECT * FROM `shell_info` WHERE `title` LIKE '%%' ORDER BY createtime LIMIT 0,20   [ RunTime:0.0480s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell_info` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-28T13:40:23+08:00 ] 127.0.0.1 /selfweba/index.php/Admin/Index/seachinfo?page=1&limit=20&sort=%2Bid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.048002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.5870s ]
+NOTIC: [8] Undefined index: title F:\mysoft\xampp\htdocs\selfweba\Application\Admin\Controller\IndexController.class.php 第 30 行.
+SQL: SELECT * FROM `shell_info` WHERE `title` LIKE '%%' ORDER BY createtime LIMIT 0,20   [ RunTime:0.9701s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell_info` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0250s ]
+
+[ 2018-04-28T16:22:14+08:00 ] 127.0.0.1 /selfweba/index.php/Admin/Index/seachinfo?page=1&limit=20&sort=%2Bid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.064004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021001s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.7450s ]
+NOTIC: [8] Undefined index: title F:\mysoft\xampp\htdocs\selfweba\Application\Admin\Controller\IndexController.class.php 第 30 行.
+SQL: SELECT * FROM `shell_info` WHERE `title` LIKE '%%' ORDER BY createtime LIMIT 0,20   [ RunTime:0.7640s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell_info` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0320s ]
+
