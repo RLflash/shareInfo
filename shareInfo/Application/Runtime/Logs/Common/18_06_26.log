@@ -1,0 +1,282 @@
+[ 2018-06-26T21:14:14+08:00 ] ::1 /shareInfo/static/utf8-php/themes/default/css/ueditor.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:14:14+08:00 ] ::1 /shareInfo/static/utf8-php/themes/iframe.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:14:14+08:00 ] ::1 /shareInfo/static/utf8-php/php/controller.php?action=config&callback=bd__editor__w7fmj4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:16:38+08:00 ] ::1 /shareInfo/static/utf8-php/themes/default/css/ueditor.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:16:38+08:00 ] ::1 /shareInfo/static/utf8-php/themes/iframe.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:16:39+08:00 ] ::1 /shareInfo/static/utf8-php/php/controller.php?action=config&callback=bd__editor__hp6zb5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001019s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:16:42+08:00 ] ::1 /shareInfo/static/utf8-php/themes/default/css/ueditor.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:16:42+08:00 ] ::1 /shareInfo/static/utf8-php/themes/iframe.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:17:56+08:00 ] ::1 /shareInfo/static/utf8-php/themes/default/css/ueditor.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:17:56+08:00 ] ::1 /shareInfo/static/utf8-php/themes/iframe.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:17:56+08:00 ] ::1 /shareInfo/static/utf8-php/php/controller.php?action=config&callback=bd__editor__puqej1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:18:35+08:00 ] ::1 /shareInfo/static/utf8-php/themes/default/css/ueditor.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:18:36+08:00 ] ::1 /shareInfo/static/utf8-php/themes/iframe.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:18:36+08:00 ] ::1 /shareInfo/static/utf8-php/php/controller.php?action=config&callback=bd__editor__ibne37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001572s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:18:36+08:00 ] ::1 /shareInfo/static/utf8-php/third-party/codemirror/codemirror.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:18:36+08:00 ] ::1 /shareInfo/static/utf8-php/third-party/codemirror/codemirror.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001026s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:18:36+08:00 ] ::1 /shareInfo/static/utf8-php/third-party/zeroclipboard/ZeroClipboard.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:19:55+08:00 ] ::1 /shareInfo/static/utf8-php/themes/default/css/ueditor.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:20:13+08:00 ] ::1 /shareInfo/static/utf8-php/themes/default/css/ueditor.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:20:46+08:00 ] ::1 /shareInfo/static/utf8-php/themes/default/css/ueditor.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001007s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:20:46+08:00 ] ::1 /shareInfo/static/utf8-php/themes/iframe.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:20:46+08:00 ] ::1 /shareInfo/static/utf8-php/third-party/codemirror/codemirror.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:20:46+08:00 ] ::1 /shareInfo/static/utf8-php/third-party/codemirror/codemirror.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:20:46+08:00 ] ::1 /shareInfo/static/utf8-php/third-party/zeroclipboard/ZeroClipboard.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001088s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:20:57+08:00 ] ::1 /shareInfo/static/utf8-php/themes/default/css/ueditor.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:20:57+08:00 ] ::1 /shareInfo/static/utf8-php/themes/iframe.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001236s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:20:58+08:00 ] ::1 /shareInfo/static/utf8-php/php/controller.php?action=config&callback=bd__editor__b2slju
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:20:58+08:00 ] ::1 /shareInfo/static/utf8-php/third-party/codemirror/codemirror.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001223s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:20:58+08:00 ] ::1 /shareInfo/static/utf8-php/third-party/codemirror/codemirror.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:20:58+08:00 ] ::1 /shareInfo/static/utf8-php/third-party/zeroclipboard/ZeroClipboard.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001676s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:23:27+08:00 ] ::1 /shareInfo/static/utf8-php/themes/default/css/ueditor.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:23:27+08:00 ] ::1 /shareInfo/static/utf8-php/themes/iframe.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:23:48+08:00 ] ::1 /shareInfo/static/utf8-php/themes/default/css/ueditor.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:23:48+08:00 ] ::1 /shareInfo/static/utf8-php/themes/iframe.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:29:32+08:00 ] ::1 /shareInfo/static/utf8-php/themes/default/css/ueditor.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001253s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:29:32+08:00 ] ::1 /shareInfo/static/utf8-php/themes/iframe.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:29:41+08:00 ] ::1 /shareInfo/static/utf8-php/themes/default/css/ueditor.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:29:41+08:00 ] ::1 /shareInfo/static/utf8-php/themes/iframe.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:29:43+08:00 ] ::1 /shareInfo/static/utf8-php/themes/iframe.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:29:43+08:00 ] ::1 /shareInfo/static/utf8-php/themes/default/css/ueditor.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:30:41+08:00 ] ::1 /shareInfo/static/utf8-php/themes/default/css/ueditor.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:32:49+08:00 ] ::1 /shareInfo/static/utf8-php/themes/default/css/ueditor.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:32:49+08:00 ] ::1 /shareInfo/static/utf8-php/themes/iframe.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001123s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:32:49+08:00 ] ::1 /shareInfo/static/utf8-php/themes/default/css/ueditor.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001082s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:32:49+08:00 ] ::1 /shareInfo/static/utf8-php/themes/iframe.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:33:19+08:00 ] ::1 /shareInfo/static/utf8-php/themes/default/css/ueditor.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001405s ]
+ERR: 无法加载模块:Static
+
+[ 2018-06-26T21:33:19+08:00 ] ::1 /shareInfo/static/utf8-php/themes/iframe.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+ERR: 无法加载模块:Static
+

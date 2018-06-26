@@ -10,7 +10,7 @@ export function uploadart(title,content,oneleave,twoleave,urlpan,paspan) {
     paspan
   }
   return request({
-    url: 'http://127.0.0.1/selfweba/index.php/Admin/Index/inserart',
+    url: 'http://127.0.0.1/shareInfo/index.php/Admin/Index/inserart',
     method: 'post',
     data
   })
@@ -18,7 +18,7 @@ export function uploadart(title,content,oneleave,twoleave,urlpan,paspan) {
 //文章操作
 export function fetchList(query) {
   return request({
-    url: 'http://127.0.0.1/selfweba/index.php/Admin/Index/seachinfo',
+    url: 'http://127.0.0.1/shareInfo/index.php/Admin/Index/seachinfo',
     method: 'get',
     params: query
   })

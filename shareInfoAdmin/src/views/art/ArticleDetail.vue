@@ -126,9 +126,9 @@ export default {
        
       this.editor = UE.getEditor('editor', {   
             BaseUrl: '',   
-          //UEDITOR_HOME_URL: 'http://localhost/selfwebadmin/static/utf8-php/', //这个是静态资源的路径  
-          UEDITOR_HOME_URL:'/static/utf8-php/',
-            // toolbars:[]  //编辑器里需要用的功能  
+          UEDITOR_HOME_URL: '/static/utf8-php/', //这个是静态资源的路径  
+        //  UEDITOR_HOME_URL:'/static/utf8-php/',
+           //  toolbars:[]  //编辑器里需要用的功能  
           }); // 初始化UE  
      
     },

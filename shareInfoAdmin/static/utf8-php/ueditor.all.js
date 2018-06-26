@@ -8042,7 +8042,7 @@ var fillCharReg = new RegExp(domUtils.fillChar, 'g');
 UE.Editor.defaultOptions = function(editor){
 
     //var _url = editor.options.UEDITOR_HOME_URL;
-    var _url="http://localhost/selfwebadmin/static/utf8-php/"
+    var _url="/static/utf8-php/"
     return {
         isShow: true,
         initialContent: '',

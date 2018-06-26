@@ -1,0 +1,10 @@
+[ 2018-06-27T00:01:05+08:00 ] 127.0.0.1 /shareInfo/index.php/Admin/Index/inserart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0807s ]
+SQL: INSERT INTO `shell_info` (`title`,`detail`,`createtime`,`autor`,`onegrade`,`twograde`,`arturl`,`artpas`) VALUES ('1','<p><img src=\"/image/20180627/1530028857136281.png\" title=\"1530028857136281.png\" alt=\"]7PK$1NMWILTACR5@_X$KFT.png\"/></p>','2018-06-27 00:01:05','Admin','1','1','1','1') [ RunTime:0.2153s ]
+

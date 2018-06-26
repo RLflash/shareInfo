@@ -1,0 +1,140 @@
+[ 2018-06-27T00:00:31+08:00 ] 127.0.0.1 /shareInfo/index.php/Home/Index/getsecondnav?onenav=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001409s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0034s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = 'undefined' GROUP BY twograde  [ RunTime:0.0040s ]
+
+[ 2018-06-27T00:01:15+08:00 ] 127.0.0.1 /shareInfo/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0161s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0074s ]
+
+[ 2018-06-27T00:01:15+08:00 ] 127.0.0.1 /shareInfo/index.php/Home/Index/getsecondnav?onenav=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001718s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0100s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = 'undefined' GROUP BY twograde  [ RunTime:0.0073s ]
+
+[ 2018-06-27T00:01:17+08:00 ] 127.0.0.1 /shareInfo/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0060s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0036s ]
+
+[ 2018-06-27T00:01:17+08:00 ] 127.0.0.1 /shareInfo/index.php/Home/Index/getInfot?all=1&lea=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `shell_info` WHERE `onegrade` = '1'  [ RunTime:0.0004s ]
+
+[ 2018-06-27T00:01:17+08:00 ] 127.0.0.1 /shareInfo/index.php/Home/Index/getsecondnav?onenav=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0029s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = '1' GROUP BY twograde  [ RunTime:0.0027s ]
+
+[ 2018-06-27T00:01:18+08:00 ] 127.0.0.1 /shareInfo/index.php/Home/Index/getdetail?infoid=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0046s ]
+SQL: SELECT `detail`,`id` FROM `shell_info` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-06-27T00:01:18+08:00 ] 127.0.0.1 /shareInfo/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0156s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0091s ]
+
+[ 2018-06-27T00:01:18+08:00 ] 127.0.0.1 /shareInfo/index.php/Home/Index/getsecondnav?onenav=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0149s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = 'undefined' GROUP BY twograde  [ RunTime:0.0088s ]
+
+[ 2018-06-27T00:01:21+08:00 ] 127.0.0.1 /shareInfo/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0035s ]
+SQL: SELECT `onegrade` FROM `shell_info` GROUP BY onegrade  [ RunTime:0.0032s ]
+
+[ 2018-06-27T00:01:21+08:00 ] 127.0.0.1 /shareInfo/index.php/Home/Index/getsecondnav?onenav=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0061s ]
+SQL: SELECT `twograde`,`id` FROM `shell_info` WHERE `onegrade` = 'undefined' GROUP BY twograde  [ RunTime:0.0042s ]
+
+[ 2018-06-27T00:01:21+08:00 ] 127.0.0.1 /shareInfo/index.php/Home/Index/getdetail?infoid=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002453s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0038s ]
+SQL: SELECT `detail`,`id` FROM `shell_info` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-06-27T00:01:50+08:00 ] 127.0.0.1 /shareInfo/index.php/Home/Index/geturlpas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0033s ]
+SQL: SELECT arturl as url,artpas as pas,id as u_id FROM `shell_info` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-06-27T00:01:50+08:00 ] 127.0.0.1 /shareInfo/index.php/Home/Index/geturlpas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0028s ]
+SQL: SELECT arturl as url,artpas as pas,id as u_id FROM `shell_info` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+

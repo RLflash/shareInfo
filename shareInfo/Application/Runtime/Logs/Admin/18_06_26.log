@@ -79,3 +79,105 @@ INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 ERR: 非法操作:index
 
+[ 2018-06-26T21:13:12+08:00 ] 127.0.0.1 /shareInfo/index.php/Admin/Index/seachinfo?page=1&limit=20&sort=%2Bid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001572s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: title D:\software\xampp\htdocs\shareInfo\Application\Admin\Controller\IndexController.class.php 第 30 行.
+SQL: SELECT * FROM `shell_info` WHERE `title` LIKE '%%' ORDER BY createtime LIMIT 0,20   [ RunTime:0.0310s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell_info` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0224s ]
+
+[ 2018-06-26T21:13:55+08:00 ] 127.0.0.1 /shareInfo/index.php/Admin/Index/seachinfo?page=1&limit=20&sort=%2Bid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002427s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0071s ]
+NOTIC: [8] Undefined index: title D:\software\xampp\htdocs\shareInfo\Application\Admin\Controller\IndexController.class.php 第 30 行.
+SQL: SELECT * FROM `shell_info` WHERE `title` LIKE '%%' ORDER BY createtime LIMIT 0,20   [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell_info` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-06-26T21:14:11+08:00 ] 127.0.0.1 /shareInfo/index.php/Admin/Index/seachinfo?page=1&limit=20&sort=%2Bid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002659s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0168s ]
+NOTIC: [8] Undefined index: title D:\software\xampp\htdocs\shareInfo\Application\Admin\Controller\IndexController.class.php 第 30 行.
+SQL: SELECT * FROM `shell_info` WHERE `title` LIKE '%%' ORDER BY createtime LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell_info` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-06-26T21:14:25+08:00 ] 127.0.0.1 /shareInfo/index.php/Admin/Index/inserart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0053s ]
+SQL: INSERT INTO `shell_info` (`title`,`detail`,`createtime`,`autor`,`onegrade`,`twograde`,`arturl`,`artpas`) VALUES ('1','','2018-06-26 21:14:25','Admin','1','1','1','1') [ RunTime:0.0462s ]
+
+[ 2018-06-26T21:29:39+08:00 ] 127.0.0.1 /shareInfo/index.php/Admin/Index/seachinfo?page=1&limit=20&sort=%2Bid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001733s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0084s ]
+NOTIC: [8] Undefined index: title D:\software\xampp\htdocs\shareInfo\Application\Admin\Controller\IndexController.class.php 第 30 行.
+SQL: SELECT * FROM `shell_info` WHERE `title` LIKE '%%' ORDER BY createtime LIMIT 0,20   [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell_info` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-06-26T21:35:00+08:00 ] 127.0.0.1 /shareInfo/index.php/Admin/Index/inserart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0253s ]
+SQL: INSERT INTO `shell_info` (`title`,`detail`,`createtime`,`autor`,`onegrade`,`twograde`,`arturl`,`artpas`) VALUES ('2','<p><img src=\"http://img.baidu.com/hi/jx2/j_0016.gif\"/></p>','2018-06-26 21:35:00','Admin','2','2','2','2') [ RunTime:0.0246s ]
+
+[ 2018-06-26T23:08:01+08:00 ] 127.0.0.1 /shareInfo/index.php/Admin/Index/seachinfo?page=1&limit=20&sort=%2Bid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001674s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0533s ]
+NOTIC: [8] Undefined index: title D:\software\xampp\htdocs\shareInfo\Application\Admin\Controller\IndexController.class.php 第 30 行.
+SQL: SELECT * FROM `shell_info` WHERE `title` LIKE '%%' ORDER BY createtime LIMIT 0,20   [ RunTime:0.0239s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell_info` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0044s ]
+
+[ 2018-06-26T23:08:12+08:00 ] 127.0.0.1 /shareInfo/index.php/Admin/Index/seachinfo?page=1&limit=20&sort=%2Bid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001782s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0079s ]
+NOTIC: [8] Undefined index: title D:\software\xampp\htdocs\shareInfo\Application\Admin\Controller\IndexController.class.php 第 30 行.
+SQL: SELECT * FROM `shell_info` WHERE `title` LIKE '%%' ORDER BY createtime LIMIT 0,20   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell_info` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-06-26T23:09:04+08:00 ] 127.0.0.1 /shareInfo/index.php/Admin/Index/inserart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0034s ]
+SQL: INSERT INTO `shell_info` (`title`,`detail`,`createtime`,`autor`,`onegrade`,`twograde`,`arturl`,`artpas`) VALUES ('1','<p><img src=\"/img.png\" title=\"img.png\" alt=\"]7PK$1NMWILTACR5@_X$KFT.png\"/></p>','2018-06-26 23:09:04','Admin','1','1','1','1') [ RunTime:0.0245s ]
+
