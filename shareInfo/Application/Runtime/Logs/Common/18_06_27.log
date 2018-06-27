@@ -1,0 +1,12 @@
+[ 2018-06-27T23:50:39+08:00 ] 127.0.0.1 /shareInfo/index.php/1Admin/Index/seachinfo?page=1&limit=20&sort=%2Bid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+ERR: 无法加载模块:1Admin
+
+[ 2018-06-27T23:50:42+08:00 ] 127.0.0.1 /shareInfo/index.php/1Admin/Index/seachinfo?page=1&limit=20&sort=%2Bid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+ERR: 无法加载模块:1Admin
+

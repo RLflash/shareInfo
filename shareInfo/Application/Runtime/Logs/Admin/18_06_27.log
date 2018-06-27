@@ -8,3 +8,107 @@ INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
 SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0807s ]
 SQL: INSERT INTO `shell_info` (`title`,`detail`,`createtime`,`autor`,`onegrade`,`twograde`,`arturl`,`artpas`) VALUES ('1','<p><img src=\"/image/20180627/1530028857136281.png\" title=\"1530028857136281.png\" alt=\"]7PK$1NMWILTACR5@_X$KFT.png\"/></p>','2018-06-27 00:01:05','Admin','1','1','1','1') [ RunTime:0.2153s ]
 
+[ 2018-06-27T23:33:46+08:00 ] 127.0.0.1 /shareInfo/index.php/Admin/Index/seachinfo?page=1&limit=20&sort=%2Bid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002071s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0081s ]
+NOTIC: [8] Undefined index: title D:\software\xampp\htdocs\shareInfo\Application\Admin\Controller\IndexController.class.php 第 30 行.
+SQL: SELECT * FROM `shell_info` WHERE `title` LIKE '%%' ORDER BY createtime LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell_info` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-06-27T23:33:57+08:00 ] 127.0.0.1 /shareInfo/index.php/Admin/Index/seachinfo?page=1&limit=20&sort=%2Bid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001966s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: title D:\software\xampp\htdocs\shareInfo\Application\Admin\Controller\IndexController.class.php 第 30 行.
+SQL: SELECT * FROM `shell_info` WHERE `title` LIKE '%%' ORDER BY createtime LIMIT 0,20   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell_info` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-06-27T23:34:04+08:00 ] 127.0.0.1 /shareInfo/index.php/Admin/Index/seachinfo?page=1&limit=20&sort=%2Bid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0086s ]
+NOTIC: [8] Undefined index: title D:\software\xampp\htdocs\shareInfo\Application\Admin\Controller\IndexController.class.php 第 30 行.
+SQL: SELECT * FROM `shell_info` WHERE `title` LIKE '%%' ORDER BY createtime LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell_info` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-06-27T23:41:01+08:00 ] 127.0.0.1 /shareInfo/index.php/Admin/Index/inserart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001613s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0070s ]
+SQL: INSERT INTO `shell_info` (`title`,`detail`,`createtime`,`autor`,`onegrade`,`twograde`,`arturl`,`artpas`) VALUES ('this 指向','<p>一直以为this指向最靠近的对象，最近开始写一些插件，查看前人所写的文章，发现有些并不是那么回事：</p><p><br/></p><p>一：函数调用，this指向全局对象window;</p><p>function run(){</p><p>&nbsp; &nbsp; console.log(this);&nbsp; &nbsp;</p><p>}</p><p>run();&nbsp; //window</p><p><br/></p><p>二：作为对象的方法调用，this指向调用的对象；</p><p>var a={</p><p>　　　　&#39;name&#39;:&#39;RL&#39;,</p><p>　　　　&#39;draw&#39;:function(){</p><p>　　　　　　console.log(this===a);&nbsp; &nbsp;//对象的方法调用，this指向调用的对象a;</p><p>　　　　　　function write(){</p><p>　　　　　　　　console.log(this===window);&nbsp; &nbsp;//这个是直接函数调用,this并不是指向对象a,指向全局对象window;</p><p>　　　　　　}</p><p>　　　　　　write();</p><p>　　　　}</p><p>}</p><p>a.draw() //true&nbsp; true&nbsp;</p><p><br/></p><p>三：new 构造函数;</p><p>function Run(){</p><p>　　console.log(this);&nbsp; &nbsp;//&nbsp; Run{}</p><p>}</p><p>var p=new Run();</p><p>console.log(p);//&nbsp; Run{}</p><p>this指向的是新建对象;</p><p><br/></p><p>四：apply()&nbsp; call()</p><p>//这两个的功能一样的，都是将函数绑定到另外一个对象上去运行；调用一个对象的方法，以另一个对象替换当前对象；只不过传递的参数不一样；</p><p>function run(val1,val2){</p><p>　　var a=8;</p><p>　　console.log(this.a+val1+val2);</p><p>}</p><p>var p={</p><p>　　a:1</p><p>}</p><p>run.call(p,1,2)&nbsp; 　　　 　　// 4</p><p>run.apply(p[1,2])　　　　　// 4</p><p><br/></p><p><br/></p><p>如有不对的地方，请多多指教！　　　　　　——RLflash</p><p><br/></p>','2018-06-27 23:41:01','Admin','前端','Javascript','www.baidu.com','123') [ RunTime:0.0105s ]
+
+[ 2018-06-27T23:41:40+08:00 ] 127.0.0.1 /shareInfo/index.php/Admin/Index/inserart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0097s ]
+SQL: INSERT INTO `shell_info` (`title`,`detail`,`createtime`,`autor`,`onegrade`,`twograde`,`arturl`,`artpas`) VALUES ('this 指向','<p>&nbsp;&nbsp;&nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一直以为this指向最靠近的对象，最近开始写一些插件，查看前人所写的文章，发现有些并不是那么回事：</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<br/></p><p>&nbsp;&nbsp;&nbsp;&nbsp;一：函数调用，this指向全局对象window;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;function run(){</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; console.log(this);&nbsp; &nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;}</p><p>&nbsp;&nbsp;&nbsp;&nbsp;run();&nbsp; //window</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<br/></p><p>&nbsp;&nbsp;&nbsp;&nbsp;二：作为对象的方法调用，this指向调用的对象；</p><p>&nbsp;&nbsp;&nbsp;&nbsp;var a={</p><p>&nbsp;&nbsp;&nbsp;&nbsp;　　　　&#39;name&#39;:&#39;RL&#39;,</p><p>&nbsp;&nbsp;&nbsp;&nbsp;　　　　&#39;draw&#39;:function(){</p><p>&nbsp;&nbsp;&nbsp;&nbsp;　　　　　　console.log(this===a);&nbsp; &nbsp;//对象的方法调用，this指向调用的对象a;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;　　　　　　function write(){</p><p>&nbsp;&nbsp;&nbsp;&nbsp;　　　　　　　　console.log(this===window);&nbsp; &nbsp;//这个是直接函数调用,this并不是指向对象a,指向全局对象window;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;　　　　　　}</p><p>&nbsp;&nbsp;&nbsp;&nbsp;　　　　　　write();</p><p>&nbsp;&nbsp;&nbsp;&nbsp;　　　　}</p><p>&nbsp;&nbsp;&nbsp;&nbsp;}</p><p>&nbsp;&nbsp;&nbsp;&nbsp;a.draw() //true&nbsp; true&nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<br/></p><p>&nbsp;&nbsp;&nbsp;&nbsp;三：new 构造函数;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;function Run(){</p><p>&nbsp;&nbsp;&nbsp;&nbsp;　　console.log(this);&nbsp; &nbsp;//&nbsp; Run{}</p><p>&nbsp;&nbsp;&nbsp;&nbsp;}</p><p>&nbsp;&nbsp;&nbsp;&nbsp;var p=new Run();</p><p>&nbsp;&nbsp;&nbsp;&nbsp;console.log(p);//&nbsp; Run{}</p><p>&nbsp;&nbsp;&nbsp;&nbsp;this指向的是新建对象;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<br/></p><p>&nbsp;&nbsp;&nbsp;&nbsp;四：apply()&nbsp; call()</p><p>&nbsp;&nbsp;&nbsp;&nbsp;//这两个的功能一样的，都是将函数绑定到另外一个对象上去运行；调用一个对象的方法，以另一个对象替换当前对象；只不过传递的参数不一样；</p><p>&nbsp;&nbsp;&nbsp;&nbsp;function run(val1,val2){</p><p>&nbsp;&nbsp;&nbsp;&nbsp;　　var a=8;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;　　console.log(this.a+val1+val2);</p><p>&nbsp;&nbsp;&nbsp;&nbsp;}</p><p>&nbsp;&nbsp;&nbsp;&nbsp;var p={</p><p>&nbsp;&nbsp;&nbsp;&nbsp;　　a:1</p><p>&nbsp;&nbsp;&nbsp;&nbsp;}</p><p>&nbsp;&nbsp;&nbsp;&nbsp;run.call(p,1,2)&nbsp; 　　　 　　// 4</p><p>&nbsp;&nbsp;&nbsp;&nbsp;run.apply(p[1,2])　　　　　// 4</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<br/></p><p>&nbsp;&nbsp;&nbsp;&nbsp;<br/></p><p>&nbsp;&nbsp;&nbsp;&nbsp;如有不对的地方，请多多指教！　　　　　　——RLflash</p><p><br/></p>','2018-06-27 23:41:40','Admin','前端','Javascript','www.baidu.com','123') [ RunTime:0.0157s ]
+
+[ 2018-06-27T23:50:18+08:00 ] 127.0.0.1 /shareInfo/index.php/Admin/Index/seachinfo?page=1&limit=20&sort=%2Bid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002059s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined index: title D:\software\xampp\htdocs\shareInfo\Application\Admin\Controller\IndexController.class.php 第 30 行.
+SQL: SELECT * FROM `shell_info` WHERE `title` LIKE '%%' ORDER BY createtime LIMIT 0,20   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell_info` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-06-27T23:50:24+08:00 ] 127.0.0.1 /shareInfo/index.php/Admin/Index/seachinfo?page=1&limit=20&sort=%2Bid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003297s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0114s ]
+NOTIC: [8] Undefined index: title D:\software\xampp\htdocs\shareInfo\Application\Admin\Controller\IndexController.class.php 第 30 行.
+SQL: SELECT * FROM `shell_info` WHERE `title` LIKE '%%' ORDER BY createtime LIMIT 0,20   [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell_info` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-06-27T23:50:54+08:00 ] 127.0.0.1 /shareInfo/index.php/Admin/Index/seachinfo?page=1&limit=20&sort=%2Bid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001997s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: title D:\software\xampp\htdocs\shareInfo\Application\Admin\Controller\IndexController.class.php 第 30 行.
+SQL: SELECT * FROM `shell_info` WHERE `title` LIKE '%%' ORDER BY createtime LIMIT 0,20   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell_info` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-06-27T23:53:36+08:00 ] 127.0.0.1 /shareInfo/index.php/Admin/Index/seachinfo?page=1&limit=20&sort=%2Bid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001655s ]
+SQL: SHOW COLUMNS FROM `shell_info` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined index: title D:\software\xampp\htdocs\shareInfo\Application\Admin\Controller\IndexController.class.php 第 30 行.
+SQL: SELECT * FROM `shell_info` WHERE `title` LIKE '%%' ORDER BY createtime LIMIT 0,20   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell_info` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0002s ]
+

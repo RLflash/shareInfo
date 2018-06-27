@@ -26,7 +26,7 @@
 		methods:{
 			geturlpass(id){
 				const self=this;
-				this.axios.post('http://127.0.0.1/shareInfo/index.php/Home/Index/geturlpas',{id:id})
+				this.axios.post('Index/geturlpas',{id:id})
 				.then(function (response) {
 				    self.uid=response.data.u_id;
 				    self.urls=response.data.url;
@@ -41,7 +41,7 @@
 			
 			const self=this;
 			var nid=this.$route.query.infoid;
-			this.axios.get('http://127.0.0.1/shareInfo/index.php/Home/Index/getdetail?infoid='+nid)
+			this.axios.get('Index/getdetail?infoid='+nid)
 			  .then(function (response) {
 			  	
 			    self.datas=response.data.detail

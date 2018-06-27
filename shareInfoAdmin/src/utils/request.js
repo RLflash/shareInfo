@@ -2,7 +2,7 @@ import axios from 'axios'
 import { Message } from 'element-ui'
 import store from '@/store'
 import { getToken } from '@/utils/auth'
-
+import apiConfig from './config'
 // create an axios instance
 const service = axios.create({
   baseURL: process.env.BASE_API, // api的base_url
@@ -16,6 +16,7 @@ service.interceptors.request.use(config => {
 //  config.headers['X-Token'] = getToken() // 让每个请求携带token-- ['X-Token']为自定义key 请根据实际情况自行修改
 	  config.headers['content-type']='multipart/form-data'
   }
+  config.url=apiConfig.apiroot+config.url
   return config
 }, error => {
   // Do something with request error

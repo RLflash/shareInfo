@@ -33,7 +33,7 @@
 		methods:{
 			getInfof:function(name,leava){
 				var self=this
-				this.axios.get('http://127.0.0.1/shareInfo/index.php/Home/Index/getInfot?all='+name+'&lea='+leava)
+				this.axios.get('Index/getInfot?all='+name+'&lea='+leava)
 				.then(function(response){
 					 self.listInfos=response.data
 				})

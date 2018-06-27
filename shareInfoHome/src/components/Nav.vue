@@ -29,8 +29,8 @@
 			getnav:function(name){
 				var self=this
 				return Promise.all([
-					this.axios.post('http://127.0.0.1/shareInfo/index.php/Home/Index/index'),
-					this.axios.get('http://127.0.0.1/shareInfo/index.php/Home/Index/getsecondnav?onenav='+name)
+					this.axios.post('Index/index'),
+					this.axios.get('Index/getsecondnav?onenav='+name)
 				]).then(function ([navlis,navs]){
 	        	  	 self.navlis=navlis.data
 	        	  	 self.navs=navs.data
